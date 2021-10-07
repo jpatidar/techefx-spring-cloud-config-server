@@ -1,0 +1,5 @@
+spring:
+  application:    name:  techefx-spring-cloud-server
+  cloud:    config:      server:        git:          uri: https://github.com/jpatidar/environment-variable-repo.git 
+    
+server:  port: ${port:8888}
